@@ -1,4 +1,23 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
-  "compilerOptions": {}
+  "compilerOptions": {
+    /* Configuração da linguagem e ambiente */
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": [
+      "es2020"
+    ],
+    /* Pastas de entrada e saída */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    /* Módulos e importações */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Checagem de tipos */
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
